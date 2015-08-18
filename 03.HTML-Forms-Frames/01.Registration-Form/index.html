@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+
+<head>
+    <title>Registration Form Demo</title>
+</head>
+<body>
+    <form method="post" action="#">
+        <table border="1">
+            <tfoot>
+                <tr>
+                    <td colspan="2" align="center" style="background-color:#87ceeb">
+                        <input type="submit" name="submitButton" value="Submit" />
+                        <input type="reset" nam="clearButton" value="Clean This Form" />
+                    </td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td align="center"><b>Last Name</b></td>
+                    <td><input type="text" name="lNameField" style="width:219px" /></td>
+                </tr>
+                <tr>
+                    <td align="center"><b>First Name</b></td>
+                    <td><input type="text" name="fNameField" style="width:219px" /></td>
+                </tr>
+                <tr>
+                    <td align="center"><b>Address</b></td>
+                    <td><textarea name="addressField" rows="4" style="width:217px"></textarea></td>
+                </tr>
+                <tr>
+                    <td align="center"><b>City</b></td>
+                    <td>
+                        <input type="text" name="cityField" style="width:113px" />
+                        State
+                        <input type="text" name="stateField" style="width:62px" />
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center"><b>ZIP/Postal Code</b></td>
+                    <td><input type="text" name="zipField" style="width:219px" /></td>
+                </tr>
+                <tr>
+                    <td align="center"><b>Country</b></td>
+                    <td>
+                        <select name="countryField" style="width:223px">
+                            <option value="BG">Bulgaria</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center"><b>Phone (country code,<br />area code, number)</b></td>
+                    <td valign="middle">
+                        (+
+                        <input type="text" name="phoneCodeField" style="width:38px" />
+                        )
+                        <input type="text" name="areaCodeField" style="width:38px" />
+                        <input type="text" name="phoneField" style="width:99px" />
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center"><b>E-mail</b></td>
+                    <td><input type="email" name="emailField" style="width:219px" /></td>
+                </tr>
+                <tr>
+                    <td align="center"><b>Birth date</b></td>
+                    <td><input type="date" name="birthdateField" style="width:219px" /></td>
+                </tr>
+                <tr>
+                    <td align="center"><b>Gender</b></td>
+                    <td>
+                        <select name="genderField" style="width:223px">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center"><b>Starting date</b></td>
+                    <td>
+                        <input name="springRadioButton" type="radio" name="radiogroup" value="Spring 2015" /> Spring 2015
+                        <input name="summerRadioButton" type="radio" name="radiogroup" value="Summer 2015" /> Summer 2015
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center"><b>Comments/Questions</b></td>
+                    <td><textarea name="commentField" rows="7" style="width:217px"></textarea></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
